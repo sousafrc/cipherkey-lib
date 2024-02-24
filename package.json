@@ -1,0 +1,62 @@
+{
+  "name": "cipherkey-lib",
+  "version": "0.1.6",
+  "description": "Biblioteca de criptografia do CipherKey",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.(js|ts)\"",
+    "lint": "eslint src --ext .js,.ts",
+    "lint:fix": "eslint src --fix --ext .js,.ts",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sousafrc/cipherkey-lib.git"
+  },
+  "keywords": [
+    "cipherkey",
+    "password",
+    "cryptography",
+    "security",
+    "scrypt",
+    "sha256",
+    "hash",
+    "key",
+    "cipher",
+    "crypto",
+    "cifra",
+    "criptografia",
+    "segurança",
+    "senha",
+    "chave",
+    "cripto"
+  ],
+  "author": "Fernando Sousa ∵ F.R.C.",
+  "license": "CC BY-NC-SA 4.0",
+  "bugs": {
+    "url": "https://github.com/sousafrc/cipherkey-lib.git/issues"
+  },
+  "homepage": "https://github.com/sousafrc/cipherkey-lib.git#readme",
+  "devDependencies": {
+    "@types/debug": "^4.1.7",
+    "@typescript-eslint/eslint-plugin": "5.30.7",
+    "@typescript-eslint/parser": "5.30.7",
+    "eslint": "8.20.0",
+    "prettier": "2.7.1",
+    "typescript": "4.7.4"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "dependencies": {
+    "debug": "^4.3.4",
+    "jssha": "^3.2.0",
+    "scrypt-js": "^3.0.1"
+  }
+}

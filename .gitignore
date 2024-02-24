@@ -1,0 +1,121 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Relatórios de diagnóstico (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Dados em tempo de execução
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Diretório para bibliotecas instrumentadas geradas por jscoverage/JSCover
+lib-cov
+
+# Diretório de cobertura usado por ferramentas como istanbul
+coverage
+*.lcov
+
+# Cobertura de teste do nyc
+.nyc_output
+
+# Armazenamento intermediário do Grunt (https://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# Diretório de dependências do Bower (https://bower.io/)
+bower_components
+
+# Configuração do node-waf
+.lock-wscript
+
+# Arquivos de biblioteca do npm
+lib/
+
+# Addons binários compilados (https://nodejs.org/api/addons.html)
+build/Release
+
+# Diretórios de dependências
+node_modules/
+jspm_packages/
+
+# Diretório de dependência do Snowpack (https://snowpack.dev/)
+web_modules/
+
+# Cache do TypeScript
+*.tsbuildinfo
+
+# Diretório de cache opcional do npm
+.npm
+
+# Cache opcional do eslint
+.eslintcache
+
+# Cache do Microbundle
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Histórico opcional do REPL
+.node_repl_history
+
+# Saída do 'npm pack'
+*.tgz
+
+# Arquivo de integridade do Yarn
+.yarn-integrity
+
+# Arquivo de variáveis de ambiente do dotenv
+.env
+.env.test
+
+# Cache do parcel-bundler (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Saída de construção do Next.js
+.next
+out
+
+# Saída de construção/geração do Nuxt.js
+.nuxt
+dist
+
+# Arquivos do Gatsby
+.cache/
+# Comente a linha public se o seu projeto usa Gatsby e não Next.js
+# https://nextjs.org/blog/next-9-1#public-directory-support
+# public
+
+# Saída de construção do vuepress
+.vuepress/dist
+
+# Diretórios do Serverless
+.serverless/
+
+# Cache do FuseBox
+.fusebox/
+
+# Arquivos do DynamoDB Local
+.dynamodb/
+
+# Arquivo de porta do TernJS
+.tern-port
+
+# Armazena versões do VSCode usadas para testar extensões do VSCode
+.vscode-test
+
+# yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+.idea/
