@@ -123,7 +123,7 @@ export const generateCipherKey = async (
 
   // Verificar https://jsben.ch/3YHpR
   // O Chrome parece lidar com operações de array de forma significativamente mais rápida do que o Firefox, então usar Array.from() com um "iterável" personalizado é uma boa ideia em termos de desempenho, mesmo que seja negligente.
-  if (navigator?.userAgent?.includes('Firefox')) {
+  if (globalThis?.navigator?.userAgent?.includes('Firefox')) {
     /* DEBUG */ _('Firefox detectado, usando Array.from com length e modificador de entrada');
     pick_index = Array.from({ length: cipherkey_length }, (_, i) => i);
   } else {
