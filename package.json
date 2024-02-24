@@ -1,6 +1,6 @@
 {
   "name": "@sousafrc/cipherkey-lib",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Biblioteca de criptografia do CipherKey",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
